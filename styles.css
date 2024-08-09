@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 /* Seção Hero */
 .hero {
-    background: linear-gradient(to right, #00aaff, #005599);
+    background-image: url(img/fundo.png);
     color: #fff;
     text-align: center;
     padding: 100px 20px;
