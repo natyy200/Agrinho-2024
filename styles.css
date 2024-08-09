@@ -1,0 +1,217 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cores e fontes principais */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: #111;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #00aaff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Seção Hero */
+.hero {
+    background: linear-gradient(to right, #00aaff, #005599);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    transition: background 0.3s;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.theme-toggle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.theme-toggle button {
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.theme-toggle button:hover {
+    background: #0077cc;
+}
+
+/* Seção de Temas */
+.themes {
+    padding: 50px 20px;
+    background: #222;
+}
+
+.themes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.theme-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.theme-card {
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+.theme-card h3 {
+    color: #00aaff;
+    margin: 10px 0;
+}
+
+/* Seção Sobre */
+.about {
+    padding: 50px 20px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Seção Contato */
+.contact {
+    padding: 50px 20px;
+    background: #222;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #333;
+    color: #fff;
+}
+
+.contact button {
+    background: #00aaff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact button:hover {
+    background: #0077cc;
+}
+
+/* Rodapé */
+footer {
+    background: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #777;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background: #000;
+    color: #fff;
+}
+
+body.dark-mode .hero {
+    background: linear-gradient(to right, #005599, #002244);
+}
+
+body.dark-mode .theme-card {
+    background: #444;
+}
+
+body.dark-mode .theme-card h3 {
+    color: #00aaff;
+}
+
+/* Alternar entre temas */
+body.campo-theme .hero {
+    background: linear-gradient(to right, #7d8b1d, #3b4d16);
+}
+
+body.cidade-theme .hero {
+    background: linear-gradient(to right, #1c1c1c, #4f4f4f);
+}
+
+body.tecnologia-theme .hero {
+    background: linear-gradient(to right, #1e1e1e, #0f0f0f);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .theme-container {
+        flex-direction: column;
+    }
+
+    .theme-card {
+        width: 100%;
+    }
+}
