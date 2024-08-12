@@ -34,3 +34,5 @@ Desenvolvi uma página web simples utilizando HTML, CSS e Bootstrap. Para enriqu
  	Agradeço ao grupo Alura, Edutech-Paraná e meus professores pelo apoio na construção deste projeto. Também expresso minha gratidão ao projeto Agrinho por incentivar os jovens a adotar uma postura mais sustentável. Espero que este projeto inspire os leitores e alcance um número maior de pessoas, ajudando-as a compreender a importância de preservar o meio ambiente.
 
 Obrigado a todos.
+
+#agrinho #edutech #2024 #Paraná #programação #concurso 
