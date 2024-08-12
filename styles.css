@@ -1,93 +1,110 @@
-@import url(styles/sobre.css);
-@import url(styles/hero.css);
-@import url(styles/contato.css);
-@import url(styles/temas.css);
-@import url(styles/rodape.css);
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background: #111;
-    transition: background 0.3s, color 0.3s;
-}
-
-header {
-    background: #1a1a1a;
-    padding: 20px 0;
-}
-
-header h1 {
-    color: #00aaff;
-    font-size: 2rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    
 }
 
-nav ul li a:hover {
-    color: #00aaff;
+.caixa{
+    width:100vw;
+    background-image: url(/img/fundo.png);
+    display: flex;
+    flex-direction:column;
+    color:#FFF;
+    font-size:1.4rem;
+    text-decoration:none;
+}
+.header{
+    display:flex;
+    align-items: center;
+   
+   
+}
+.logo{ 
+    height:150px;
 }
 
-
-/* Modo Escuro */
-body.dark-mode {
-    background: #000;
-    color: #fff;
+.menu{
+    display:flex;
+    justify-content: center;
+    gap:10px;
 }
 
-body.dark-mode .hero {
-    background: linear-gradient(to right, #005599, #002244);
+a{
+    font-size:1.6rem;
+    margin-right:20px;
+    color: #FFF;
+    font-weight:400;
+   
+}
+a:hover{
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }
 
-body.dark-mode .theme-card {
-    background: #444;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-body.dark-mode .theme-card h3 {
-    color: #00aaff;
+.card{
+    height:360px;
+    width:240px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    background:rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+    padding: 5px 0;
+    
+}
+h3{
+    margin-top:5px;
 }
 
-/* Alternar entre temas */
-body.campo-theme .hero {
-    background: linear-gradient(to right, #7d8b1d, #3b4d16);
+img{
+    min-height: 160px;
 }
 
-body.cidade-theme .hero {
-    background: linear-gradient(to right, #1c1c1c, #4f4f4f);
+.informacoes ,.formulario , .rodape{
+   
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:80%;
+    margin: auto;
+    margin-bottom: 10px;
+    gap:5px;
+    margin-top:5px;
+    
 }
 
-body.tecnologia-theme .hero {
-    background: linear-gradient(to right, #1e1e1e, #0f0f0f);
+input ,button{
+    width:100%;
+    font-size: 1.2rem;
+    border-radius: 10px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .theme-container {
-        flex-direction: column;
+button:hover{
+    background-color: #fa8c05;
+}
+.parte-final{
+background-color: rgba(0,0,0,0.8);
+    /* background-image: url(/img/sobrenos.png); */
+}
+
+@media (max-width: 600px) {
+    h1{
+        display:none;
     }
-
-    .theme-card {
-        width: 100%;
+    .header{
+        justify-content: center;
     }
 }

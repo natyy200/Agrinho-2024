@@ -1,91 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campo & Cidade & Tecnologia</title>
+    <title>Agrinho: Do campo à cidade-colhendo oportunidades</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Campo & Cidade & Tecnologia</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#themes">Temas</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="theme-toggle">
-                <button id="dark-mode-toggle">Modo Escuro</button>
-                <button id="theme-toggle">Alternar Tema</button>
-            </div>
-        </div>
-    </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Bem-vindo ao Futuro!</h2>
-            <p>Explore a integração entre campo, cidade e tecnologia.</p>
-        </div>
-    </section>
+    <!-- inicio container -->
+    <div class="caixa">
+        <!-- bloco cabecalho -->
+        <header class="header" id="header">
+            <img class="logo" alt="logotipo agrinho" src="/img/logo-agrinho.png" />
+            <h1 class="titulo">Do campo à cidade, colhendo oportunidades!</h1>
+        </header>
+        <nav class="menu">
+            <a href="#header">Home</a>
+            <a href="#main">Novidades</a>
+            <a href="#informacoes">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <!-- corpo da pagina -->
+        <main class="main" id="main">
+            <!-- relacionado ao campo -->
+            <section class="card">
+                <h3>Automação</h3>
+                <img src="https://blog4.mfrural.com.br/wp-content/uploads/2021/04/informatizacao.jpg"
+                    alt="controlando maquinas agricola gps">
+                <p>Tratores e colheitadeiras equipados com GPS e sensores aumentam a eficiência e a precisão das
+                    operações agrícolas.</p>
+            </section>
 
-    <section id="themes" class="themes">
-        <div class="container">
-            <h2>Escolha Seu Tema</h2>
-            <p>Descubra os diferentes temas que exploram a integração entre campo, cidade e tecnologia.</p>
-            <div class="theme-container">
-                <div id="campo" class="theme-card">
-                    <h3>Campo</h3>
-                    <p>Automação e Maquinário: Tratores e colheitadeiras equipados com GPS e sensores aumentam a eficiência e a precisão das operações agrícolas.</p>
-                    <p>Irrigação Inteligente: Sistemas de irrigação automatizados que ajustam a quantidade de água conforme as necessidades das culturas.</p>
-                    <!-- <p>Monitoramento e Análise de Dados: Drones e satélites fornecem informações sobre a saúde das plantações.</p> -->
-                </div>
-                <div id="cidade" class="theme-card">
-                    <h3>Cidade</h3>
-                    <p>Distribuição e Comércio: A produção agrícola no campo é muitas vezes transportada para as cidades, onde é vendida em mercados e supermercados.</p>
-                    <p>Infraestrutura e Serviços: A cidade oferece serviços como transporte, logística, e apoio técnico que são essenciais para o sucesso das atividades no campo.</p>
-                </div>
-                <div id="tecnologia" class="theme-card">
-                    <h3>Tecnologia</h3>
-                    <p>Pesquisa e Desenvolvimento: Muitas inovações tecnológicas na agricultura são desenvolvidas em centros de pesquisa e universidades localizados nas cidades.</p>
-                    <p>Empresas de Tecnologia: Startups e empresas que criam tecnologias agrícolas frequentemente estão localizadas em ambientes urbanos, onde há acesso a recursos e investimentos.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <section class="card">
+                <h3>Irrigação</h3>
+                <img src="https://i0.wp.com/revistaagrocampo.com.br/wp-content/uploads/2024/01/tecnologia-2024.jpg?fit=1200%2C630&ssl=1"
+                    alt="drone sobrevoando lavoura">
+                <p>Sistemas de irrigação automatizados que ajustam a quantidade de água conforme as necessidades das
+                    culturas.</p>
+            </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Sobre Nós</h2>
-            <p>Agrinho é o maior programa de responsabilidade social do Sistema FAEP, resultado da parceria entre o SENAR-PR, FAEP, o governo do Estado do Paraná, mediante as Secretarias de Estado da Educação e do Esporte, da Agricultura e do Abastecimento, da Justiça, Família e Trabalho e do Desenvolvimento Sustentável e do Turismo, bem como com a colaboração das Prefeituras municipais e diversas empresas e instituições públicas e privadas.</p>
-            <p>Criado com o objetivo de levar informações sobre saúde e segurança pessoal e ambiental, principalmente às crianças do meio rural, o Programa se consolida como instrumento eficiente na operacionalização de temáticas de relevância social da contemporaneidade dentro dos currículos escolares. Especialistas altamente qualificados, de renome nacional e internacional, de diversos grupos de pesquisa que trabalham em rede, fundamentam as informações que compõem o material didático preparado com exclusividade para o Programa. Pelo incentivo à pesquisa, defende-se uma educação crítica, criativa, que desenvolva a autonomia e a capacidade de professores e alunos assumirem-se como pesquisadores e produtores de novos conhecimentos. Desde seu início em 1996, os professores e alunos recebem com entusiasmo e dedicação as atividades do Programa Agrinho, a cada ano, esse trabalho vem se superando em qualidade e criatividade.</p>
-        </div>
-    </section>
+            <section class="card">
+                <h3>Monitoramento</h3>
+                <img src="https://f.hubspotusercontent00.net/hubfs/6316502/Com%20a%20incorpora%C3%A7%C3%A3o%20de%20novas%20tecnologias,%20a%20gest%C3%A3o%20da%20fazenda%20%C3%A9%20cada%20vez%20mais%20inteligente%202.jpg"
+                    alt="monitorando milharal">
+                <p>Drones e satélites fornecem informações sobre a saúde das plantações.</p>
+            </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
+            <!-- integrando a cidade -->
+            <section class="card">
+                <h3>Distribuição</h3>
+                <img src="https://files.agro20.com.br/uploads/2019/08/ceasa-3.jpg" alt="ceasa">
+                <p>A produção agrícola no campo é muitas vezes transportada para as cidades, onde é vendida.</p>
+            </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Campo & Cidade & Tecnologia. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+            <section class="card">
+                <h3>Infraestrutura</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQeoHxiuPdYIS3hClVTreftN4YZ8-RhYbGg&s"
+                    alt="caminhoes estrada">
+                <p>A cidade oferece serviços como transporte, logística, e apoio técnico que são essenciais para o
+                    sucesso das atividades no campo.</p>
+            </section>
 
+            <!-- tecnologia -->
+            <section class="card">
+                <h3>Pesquisa</h3>
+                <img src="https://www.uerj.br/wp-content/uploads/2017/10/pesquisa-848x414.jpg" alt="caminhoes estrada">
+                <p>Inovações tecnológicas são desenvolvidas em centros de pesquisa e universidades localizados nas
+                    cidades.</p>
+            </section>
+
+            <section class="card">
+                <h3>Tecnologia</h3>
+                <img src="https://img.freepik.com/fotos-premium/cientista-agricola-trabalhando-para-pesquisar-uma-planta-vegetal-verde-em-um-campo-de-laboratorio-de-biologia-a-biotecnologia-e-uma-tecnologia-experimento-de-botanica-da-ecologia-da-natureza-crescimento-organico-da-agricultura-com-efeito-de-estufa_33755-11041.jpg"
+                    alt="cientista plantas pesquisando">
+                <p>Startups e empresas que criam tecnologias agrícolas localizadas
+                    onde há acesso a recursos e investimentos.</p>
+            </section>
+        </main>
+
+        <!-- bloco de informaçoes programa Agrinho -->
+         <div class="parte-final">
+            <section class="informacoes" id="informacoes">
+                <h2>Sobre Nós</h2>
+                <p>Agrinho é o maior programa de responsabilidade social do Sistema FAEP, resultado da parceria entre o
+                    SENAR-PR, FAEP, o governo do Estado do Paraná, mediante as Secretarias de Estado da Educação e do
+                    Esporte, da Agricultura e do Abastecimento, da Justiça, Família e Trabalho e do Desenvolvimento
+                    Sustentável e do Turismo, bem como com a colaboração das Prefeituras municipais e diversas empresas e
+                    instituições públicas e privadas.</p>
+                <p>Criado com o objetivo de levar informações sobre saúde e segurança pessoal e ambiental, principalmente às
+                    crianças do meio rural, o Programa se consolida como instrumento eficiente na operacionalização de
+                    temáticas de relevância social da contemporaneidade dentro dos currículos escolares. Especialistas
+                    altamente qualificados, de renome nacional e internacional, de diversos grupos de pesquisa que trabalham
+                    em rede, fundamentam as informações que compõem o material didático preparado com exclusividade para o
+                    Programa. Pelo incentivo à pesquisa, defende-se uma educação crítica, criativa, que desenvolva a
+                    autonomia e a capacidade de professores e alunos assumirem-se como pesquisadores e produtores de novos
+                    conhecimentos. Desde seu início em 1996, os professores e alunos recebem com entusiasmo e dedicação as
+                    atividades do Programa Agrinho, a cada ano, esse trabalho vem se superando em qualidade e criatividade.
+                </p>
+            </section>
+    
+            <!-- Informaçoes de contato -->
+            <section class="formulario" id="contato">
+                <h2>Contato</h2>
+                <form class="formulario" action="" method="">
+                 
+                    <input type="text" id="name" name="name" placeholder=" Nome..." required>
+                 
+                    <input type="email" id="email" name="email" placeholder=" Email..." required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+    
+            <!-- rodape -->
+            <footer class="rodape">
+                <p>&copy; Concurso Agrinho 2024.Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>
+    <!-- final container -->
     <script src="script.js"></script>
 </body>
+
 </html>

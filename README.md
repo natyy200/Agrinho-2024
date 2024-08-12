@@ -1,8 +1,36 @@
 ## Agrinho Programação 2024
 
-### pagina web desenvolvida com o intuito de chamar a atenção dos jovens da importancia da agricultura e cuidar do meio ambiente e sua integração e impactos com a cidade
+### Agrinho: do campo à cidade, colhendo oportunidades
 
-### link do projeto em desenvolvimento
+### link do projeto:
 [Concurso-Agrinho-2024 -Programação](https://agrinho-programacao-2024-nine.vercel.app/)
 
 ![](https://conexaosafra.com/wp-content/uploads/2024/04/agrinho-2024.jpg)
+
+>> TEMA – AGRINHO: 
+- Do campo à cidade, colhendo oportunidades
+
+>> NOME DO PROJETO DE PROGRAMAÇÃO: 
+- Tecnologia ao alcance de todos
+
+1.INTRODUÇÃO 
+
+ OBJETIVOS DO PROJETO 
+    Esta página web foi desenvolvida com base nos conhecimentos adquiridos no programa Edutech-Paraná, com o objetivo de destacar a integração entre o campo e a cidade, enfatizando a importância da tecnologia nesse processo.
+Conscientizar as pessoas sobre a importância do acesso à tecnologia e como utilizá-la da melhor forma para benefício de todos.
+
+ JUSTIFICATIVA DO PROJETO 
+    Inicialmente concebido para aplicar meus conhecimentos no desenvolvimento de páginas web, este projeto visa também despertar o interesse dos jovens, proporcionando uma experiência educativa e envolvente durante a navegação.
+
+
+
+ LINK DO PROJETO
+    https://github.com/natyy200/Agrinho-Programacao-2024
+
+2.DESCRIÇÃO DO PROJETO
+Desenvolvi uma página web simples utilizando HTML, CSS e Bootstrap. Para enriquecer o conteúdo, utilizei ferramentas como canvas, Figma e chatGPT, além de realizar pesquisas em sites e utilizar templates disponíveis na internet. O objetivo foi integrar esses elementos de maneira harmoniosa, permitindo que o usuário interaja com a página enquanto aprende sobre o projeto Agrinho e seu impacto no aprendizado, compreendendo melhor os conceitos e a importância das boas práticas para um mundo mais sustentável.
+
+3.CONSIDERAÇÕES FINAIS
+ 	Agradeço ao grupo Alura, Edutech-Paraná e meus professores pelo apoio na construção deste projeto. Também expresso minha gratidão ao projeto Agrinho por incentivar os jovens a adotar uma postura mais sustentável. Espero que este projeto inspire os leitores e alcance um número maior de pessoas, ajudando-as a compreender a importância de preservar o meio ambiente.
+
+Obrigado a todos.
