@@ -107,4 +107,7 @@ background-color: rgba(0,0,0,0.8);
     .header{
         justify-content: center;
     }
+    a, p{
+        font-size: 1.4rem;
+    }
 }
