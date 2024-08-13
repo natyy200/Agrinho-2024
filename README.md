@@ -28,7 +28,7 @@ Conscientizar as pessoas sobre a importância do acesso à tecnologia e como uti
     https://github.com/natyy200/Agrinho-Programacao-2024
 
 2.DESCRIÇÃO DO PROJETO
-Desenvolvi uma página web simples utilizando HTML, CSS e Bootstrap. Para enriquecer o conteúdo, utilizei ferramentas como canvas, Figma e chatGPT, além de realizar pesquisas em sites e utilizar templates disponíveis na internet. O objetivo foi integrar esses elementos de maneira harmoniosa, permitindo que o usuário interaja com a página enquanto aprende sobre o projeto Agrinho e seu impacto no aprendizado, compreendendo melhor os conceitos e a importância das boas práticas para um mundo mais sustentável.
+Desenvolvi uma página web simples utilizando HTML e CSS. Para enriquecer o conteúdo, utilizei ferramentas como canvas, além de realizar pesquisas em sites. O objetivo foi integrar esses elementos de maneira harmoniosa, permitindo que o usuário interaja tenha uma experiencia agradavel enquanto navega e conhece mais sobre o projeto Agrinho.
 
 3.CONSIDERAÇÕES FINAIS
  	Agradeço ao grupo Alura, Edutech-Paraná e meus professores pelo apoio na construção deste projeto. Também expresso minha gratidão ao projeto Agrinho por incentivar os jovens a adotar uma postura mais sustentável. Espero que este projeto inspire os leitores e alcance um número maior de pessoas, ajudando-as a compreender a importância de preservar o meio ambiente.
