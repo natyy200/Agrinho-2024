@@ -7,12 +7,6 @@
 
 ![](https://conexaosafra.com/wp-content/uploads/2024/04/agrinho-2024.jpg)
 
-### Music by <a href="https://pixabay.com/users/geoffharvey-9096471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=173303">Geoff Harvey</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=173303">Pixabay</a>
-
-### background  ![video](https://www.vecteezy.com/video/17007747-falling-leaves-white-background-animation)
-
-### Imagens- referencias nos links das imagens nos cards
-
 > TEMA – AGRINHO: 
 - Do campo à cidade, colhendo oportunidades
 
