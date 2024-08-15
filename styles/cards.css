@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height:360px;
+    width:240px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    background:rgba(25, 73, 3, 0.2);
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    border-color:#fa8c05;
+}
+
+h3{
+    margin-top:5px;
+}
+
+img{
+    min-height: 160px;
+}

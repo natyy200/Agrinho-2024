@@ -2,11 +2,9 @@
 
 const caixa = document.querySelector(".caixa");
 
-const bgMusic = new Audio("./sons/raggamuffin-173303.mp3");
-bgMusic.volume= 0.2;
+const music = new Audio("./sons/raggamuffin-173303.mp3");
+music.volume= 0.1;
 
-caixa.addEventListener('mouseover',()=>bgMusic.play());
-
-
-
+caixa.addEventListener('mouseover', ()=>music.play());
+    
 

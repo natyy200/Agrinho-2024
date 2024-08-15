@@ -1,0 +1,21 @@
+
+@media (max-width: 600px) {
+    h1{
+        display:none;
+    }
+    .header{
+        justify-content: center;
+    }
+    a{
+        font-size: 1.3rem;
+    }
+    .card p{
+        font-size: 1.3rem;
+        padding: 5px;
+
+    }
+    video{
+        display: none;
+    }
+
+}
