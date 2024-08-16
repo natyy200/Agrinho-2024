@@ -1,7 +1,7 @@
 
 @media (max-width: 600px) {
     
-    h1, video{
+    h1{
         display:none;
     }
     .header{
@@ -13,10 +13,14 @@
     .card p{
         font-size: 1.3rem;
         padding: 5px;
-
     }
-.caixa{
-    background-color: rgb(0, 0, 0 , 0.5) !important;
-}
+    .foreground{
+        background: linear-gradient(rgba(0, 0, 0, 1),rgba(10, 10, 10, 0.5)),url(../img/fundo.png);
+        height:100vh;
+       
+    }
+   .video{
+     opacity:0.2;
+   }
    
 }

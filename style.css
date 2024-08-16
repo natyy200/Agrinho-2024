@@ -1,18 +1,15 @@
+@import url(styles/video.css);
 @import url(styles/header.css);
-@import url(styles/contato.css);
 @import url(styles/cards.css);
 @import url(styles/sobre.css);
-@import url(styles/responsividade.css);
+@import url(styles/contato.css);
 @import url(styles/rodape.css);
-@import url(styles/video.css);
+@import url(styles/responsividade.css);
 
-body{
-    background-image: url(/img/fundo.png);
-}
+
 
 .caixa{
     width:100vw;
-    background-color: rgba(0,0,0,0.2);
     display: flex;
     flex-direction:column;
     color:#FFF;
